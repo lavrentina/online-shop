@@ -1,0 +1,16 @@
+[
+	{
+		"email": "test@test.com",
+		"password": "123"
+	},
+	{
+		"email": "admin1",
+		"password": "d478952c40b9874cfee5b4d09e39acab66dcdb14de883237061911b78f7586253a4c833fa8f4c7bfa8fe063a2d2b64874ba60528fb1edc06ea17f22fa9c863cb.7cac364dda60ee4a",
+		"id": "9cbdd452"
+	},
+	{
+		"email": "valja@gmail.com",
+		"password": "2b2337127865902f5402a5408912e6938e626e0c7e22432b2253934f80eac53d7a42dbba9a30fdc40f1ba55d80ce33d1d00f2abff43dfba2bcfaa99f5e818a71.a301dee5a65ba433",
+		"id": "e8478b93"
+	}
+]
