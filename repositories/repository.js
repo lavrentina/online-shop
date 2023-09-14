@@ -1,6 +1,5 @@
 const fs = require("fs");
 const crypto = require("crypto");
-const { readFile, writeFile } = require("node:fs/promises");
 
 module.exports = class Repository {
 	constructor(filename) {
@@ -28,7 +27,7 @@ module.exports = class Repository {
 	// gets the list of all users
 	async getAll() {
 		return JSON.parse(
-			await readFile(this.filename, {
+			await fs.promises.readFile(this.filename, {
 				encoding: "utf8",
 			})
 		);
@@ -36,7 +35,10 @@ module.exports = class Repository {
 
 	// writes all users ("records" array) to this.filename(e.g. "users.js")
 	async writeAll(records) {
-		await writeFile(this.filename, JSON.stringify(records, null, 2));
+		await fs.promises.writeFile(
+			this.filename,
+			JSON.stringify(records, null, 2)
+		);
 	}
 
 	// generating unique IDs
