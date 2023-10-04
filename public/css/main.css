@@ -11,6 +11,10 @@ body {
 	padding: 5px;
 }
 
+figure img {
+	height: 250px;
+}
+
 .navbar ul.social {
 	display: flex;
 }
@@ -28,6 +32,7 @@ body {
 
 .columns.products {
 	flex-wrap: wrap;
+	padding: 0 0 32px 0;
 }
 
 .card-footer-item i {
@@ -48,6 +53,20 @@ body {
 	justify-content: space-between;
 	padding: 0px 5%;
 	align-items: center;
+}
+
+.footer-wrapper {
+	background-color: #000;
+	height: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.footer-wrapper p {
+	color: #fff;
+	font-size: 20px;
+	letter-spacing: 2px;
 }
 
 #cart h3 {

@@ -59,6 +59,11 @@ module.exports = ({ content }) => {
         </header>
 
         ${content}
+        <footer>
+          <div class="footer-wrapper">
+            <p>Copyright 2023</p>
+          </div>
+        </footer>
       </body>
     </html>
   `;
