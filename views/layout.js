@@ -7,7 +7,7 @@ module.exports = ({ content }) => {
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Shop</title>
 
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
         <link href="/css/main.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css"></link>
       </head>
@@ -52,6 +52,9 @@ module.exports = ({ content }) => {
                   <div class="navbar-item">
                     <a href="/cart"><i class="fa fa-shopping-cart"></i> Cart</a>
                   </div>
+                  <div class="navbar-item">
+                  <a href="/signin"><i class="fa-solid fa-arrow-right-to-bracket"></i> Admin Panel</a>
+                </div>
                 </div>
               </div>
             </div>
